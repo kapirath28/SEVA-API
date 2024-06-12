@@ -11,7 +11,7 @@ async function sendMessage() {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
-            'Authorization': `sk-proj-aWjYEupOY1ZQqzZeDn7jT3BlbkFJelpPTqrqyIj5I5epuiHu`
+            'Authorization': `sk-proj-56U7MyztIIhZsOdjLRBxT3BlbkFJY9FbGPw1ILJ4DgBkO5zh'
         },
         body: JSON.stringify({
             prompt: userInput,
