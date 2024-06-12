@@ -1,4 +1,3 @@
-/* Global Styles */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -11,11 +10,13 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #ff0000; /* Red background */
+    background-image: url('https://png.pngtree.com/background/20210711/original/pngtree-blue-university-student-s-day-background-picture-image_1146051.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
 }
 
-/* Container */
 .container {
     width: 100%;
     max-width: 600px;
@@ -27,17 +28,15 @@ body {
     flex-direction: column;
 }
 
-/* Header */
 header {
     background-color: #000;
-    color: #6a0dad; /* Purple title */
+    color: #6a0dad;
     padding: 20px;
     text-align: center;
     font-size: 24px;
     font-weight: bold;
 }
 
-/* Chat Container */
 .chat-container {
     display: flex;
     flex-direction: column;
@@ -46,7 +45,6 @@ header {
     position: relative;
 }
 
-/* Chat Window */
 .chat-window {
     flex: 1;
     padding: 20px;
@@ -82,7 +80,6 @@ header {
     color: #ff5722;
 }
 
-/* Input Container */
 .input-container {
     display: flex;
     border-top: 1px solid #eee;
@@ -115,7 +112,6 @@ header {
     background-color: #0056b3;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     .container {
         margin: 20px;
